@@ -3,6 +3,7 @@
 // (prompt("ingrese el numero del menu: 1- hambunguesa con papas 2- hambunguesa 3- gaseosa 4- cerveza 5- nachos"))
 // let seguirAgregando = true
 // let seleccion
+
 // while (seguirAgregando === true) {
 //     if(productoSeleccionado===1) {
 //         totalConsumo = totalConsumo + 1350
@@ -52,4 +53,3 @@
 // }
 // let valorTotal = precioFinal(valorConServicio)
 // alert("el total de cargo por servicios e impuestos es de: "+valorTotal)
-
