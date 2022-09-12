@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dist Lobo Tao</title>
 </head>
 <body>
+    <header>
+        <h1 id="titulo" class="titulo">Eventos</h1>
+        <button id="boton-carrito"><span id="contadorCarrito">0</span></button>
+    </header>
+    <select id="filtroTalle">
+        <option value="all">Todos</option>
+        <option value="P">Pequeños</option>
+        <option value="M">Medianos</option>
+        <option value="G">Grandes</option>
+    </select>
     <!-- <script src="./js/index.js"> -->
     <!-- <script src="./js/interaccion.js"> -->
     <!-- <script src="./js/arrays.js"> -->
-    <script src="./js/primeraEntrega.js">
+
+     
+    <main id="contenedor-productos">
+
+    </main>
+
+    <div class="modal-contenedor">
 
 
-    </script>
+        <div class="modal-carrito">
+
+            <h3>Carrito</h3>
+
+            <button id="carritoCerrar"></button>
+            <div id="carrito-contenedor">
+    <script src="./js/primeraEntrega.js"></script>
+                
+            </div>
+        <p class="precioProducto">Precio total: $<span id="precioTotal" class=">0</span></p>
+        <button id="vaciar-carrito" class="boton-agregar">vaciar carrito</button>
+        </div>        
+    </div>
+    
 </body>
 </html>
