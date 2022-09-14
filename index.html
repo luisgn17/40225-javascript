@@ -1,48 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dist Lobo Tao</title>
+    <title>Distribuidora Lobo</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script defer src="stock.js"></script>
+    <script defer src="modelo.js"></script>
+    <script defer src="entrega.js"></script>
 </head>
 <body>
     <header>
-        <h1 id="titulo" class="titulo">Eventos</h1>
-        <button id="boton-carrito"><span id="contadorCarrito">0</span></button>
+        <h1 id="titulo" class="titulo">Distribuidora Lobo</h1>
+        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
     </header>
-    <select id="filtroTalle">
-        <option value="all">Todos</option>
-        <option value="P">Pequeños</option>
-        <option value="M">Medianos</option>
-        <option value="G">Grandes</option>
-    </select>
-    <!-- <script src="./js/index.js"> -->
-    <!-- <script src="./js/interaccion.js"> -->
-    <!-- <script src="./js/arrays.js"> -->
-
-     
     <main id="contenedor-productos">
-
     </main>
-
-    <div class="modal-contenedor">
-
-
-        <div class="modal-carrito">
-
+    <div class="modelo-contenedor">
+        <div class="modelo-carrito">
             <h3>Carrito</h3>
-
-            <button id="carritoCerrar"></button>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
             <div id="carrito-contenedor">
-    <script src="./js/primeraEntrega.js"></script>
                 
             </div>
-        <p class="precioProducto">Precio total: $<span id="precioTotal" class=">0</span></p>
-        <button id="vaciar-carrito" class="boton-agregar">vaciar carrito</button>
-        </div>        
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+        </div>
     </div>
-    
 </body>
 </html>
