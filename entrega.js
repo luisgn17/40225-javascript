@@ -1,3 +1,11 @@
+Swal.fire({
+    position: 'center',
+    icon: 'success',
+    title: 'Bienbenido a Nuestro Sitio',
+    showConfirmButton: true,
+    timer: 3500
+  })
+
 const contenedorProductos = document.getElementById('contenedor-productos')
 const contenedorCarrito = document.getElementById('carrito-contenedor')
 const botonVaciar = document.getElementById('vaciar-carrito')
@@ -18,6 +26,40 @@ document.addEventListener('DOMContentLoaded', () => {
 botonVaciar.addEventListener('click', () => {
     carrito.length = 0
     actualizarCarrito()
+    const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+          confirmButton: 'btn btn-success',
+          cancelButton: 'btn btn-danger'
+        },
+        buttonsStyling: false
+      })
+      
+      swalWithBootstrapButtons.fire({
+        title: 'Seguro desea Vaciar el Carrito?',
+        text: "esta accion no se podra revertir!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Si, Borrar Todo!',
+        cancelButtonText: 'No, cancelar!',
+        reverseButtons: true
+      }).then((result) => {
+        if (result.isConfirmed) {
+          swalWithBootstrapButtons.fire(
+            'Borrado!',
+            'El Carrito Esta Vacio',
+            'success'
+          )
+        } else if (
+          
+          result.dismiss === Swal.DismissReason.cancel
+        ) {
+          swalWithBootstrapButtons.fire(
+            'Cancelado',
+            'tus Articulos aun continuan en el Carrito :)',
+            'error'
+          )
+        }
+      })
 })
 
 stockProductos.forEach((producto) => {
@@ -37,6 +79,12 @@ stockProductos.forEach((producto) => {
 
     boton.addEventListener('click', () => {
         agregarAlCarrito(producto.id)
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            showConfirmButton: false,
+            timer: 1000
+          })
     })
 })
 
@@ -85,5 +133,4 @@ const actualizarCarrito = () => {
     contadorCarrito.innerText = carrito.length 
     console.log(carrito)
     precioTotal.innerText = carrito.reduce((acc, prod) => acc + prod.cantidad * prod.precio, 0)
-  
 }
