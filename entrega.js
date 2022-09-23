@@ -29,7 +29,7 @@ stockProductos.forEach((producto) => {
     <p>${producto.desc}</p>
     <p>Presentacion: ${producto.presentacion}</p>
     <p class="precioProducto">Precio:$ ${producto.precio}</p>
-    <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
+    <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fa fa-shopping-cart"></i></button>
     `
     contenedorProductos.appendChild(div)
 
@@ -77,7 +77,7 @@ const actualizarCarrito = () => {
         <p>${prod.nombre}</p>
         <p>Precio:$${prod.precio}</p>
         <p>Cantidad: <span id="cantidad">${prod.cantidad}</span></p>
-        <button onclick="eliminarDelCarrito(${prod.id})" class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+        <button onclick="eliminarDelCarrito(${prod.id})" class="boton-eliminar"><i class="fa fa-trash-alt"></i></button>
         `
         contenedorCarrito.appendChild(div)
         localStorage.setItem('carrito', JSON.stringify(carrito))
