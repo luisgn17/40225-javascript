@@ -13,7 +13,6 @@ fetch(url)
     <p>Falsos Positivos: ${data.pending}</p>
     <p>Casos Positivos: ${data.positive}</p>
     <p>Estados: ${data.states}</p>
-
     <p>Total Resultado Test Covid 19: ${data.totalTestResults}</p>  
     `
     console.log(data)

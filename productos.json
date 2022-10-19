@@ -1,0 +1,82 @@
+[
+    {
+        "id": 11,
+        "nombres": "Depimiel",
+        "imagenn": "./Depimiel/1.jpg",
+        "precioo":380,
+        "tipoo": "cera",
+        "canti": 0
+    },
+    {
+        "id": 22,
+        "nombres": "Depimiel",
+        "imagenn": "./Depimiel/2.png",
+        "precioo":590,
+        "tipoo": "cera",
+        "canti": 0
+    },
+    {
+        "id": 33,
+        "nombres": "Depimiel",
+        "imagenn": "./Depimiel/3.png",
+        "precioo":380,
+        "tipoo": "cera",
+        "canti": 0
+    },
+    {
+        "id": 44,
+        "nombres": "Depimiel",
+        "imagenn": "./Depimiel/4.png",
+        "precioo":590,
+        "tipoo": "cera",
+        "canti": 0
+    },
+    {
+        "id": 55,
+        "nombres": "Depimiel",
+        "imagenn": "./Depimiel/5.png",
+        "precioo":380,
+        "tipoo": "cera",
+        "canti": 0
+    },
+    {
+        "id": 66,
+        "nombres": "Depimiel",
+        "imagenn": "./Depimiel/6.png",
+        "precioo":590,
+        "tipoo": "cera",
+        "canti": 0
+    },
+    {
+        "id": 77,
+        "nombres": "Depimania",
+        "imagenn": "./Depimiel/7.png",
+        "precioo":650,
+        "tipoo": "cera",
+        "canti": 0
+    },
+    {
+        "id": 88,
+        "nombres": "Depimania",
+        "imagenn": "./Depimiel/8.png",
+        "precioo":490,
+        "tipoo": "cera",
+        "canti": 0
+    },
+    {
+        "id": 99,
+        "nombres": "Depimania",
+        "imagenn": "./Depimiel/9.png",
+        "precioo":650,
+        "tipoo": "cera",
+        "canti": 0
+    },
+    {
+        "id": 100,
+        "nombres": "Depimania",
+        "imagenn": "./Depimiel/10.png",
+        "precioo":490,
+        "tipoo": "cera",
+        "canti": 0
+    }
+]
