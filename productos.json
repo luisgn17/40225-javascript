@@ -1,82 +1,82 @@
 [
     {
-        "id": 11,
-        "nombres": "Depimiel",
-        "imagenn": "./Depimiel/1.jpg",
-        "precioo":380,
-        "tipoo": "cera",
-        "canti": 0
+        "id": 1,
+        "nombre": "Depimiel",
+        "precio":380,
+        "tipo": "Repuesto Cera Depilatoria Fuerte",
+        "cantidad": 100,
+        "contacto": "+ 54 9 11 22 00 22"
     },
     {
-        "id": 22,
-        "nombres": "Depimiel",
-        "imagenn": "./Depimiel/2.png",
-        "precioo":590,
-        "tipoo": "cera",
-        "canti": 0
+        "id": 2,
+        "nombre": "Depimiel",
+        "precio":590,
+        "tipo": "Cera Depilatoria en Caja Fuerte",
+        "cantidad": 100,
+        "contacto": "+ 54 9 11 22 00 22"
     },
     {
-        "id": 33,
-        "nombres": "Depimiel",
-        "imagenn": "./Depimiel/3.png",
-        "precioo":380,
-        "tipoo": "cera",
-        "canti": 0
+        "id": 3,
+        "nombre": "Depimiel",
+        "precio":380,
+        "tipo": "Repuesto Cera Depilatoria Vegetal",
+        "cantidad": 100,
+        "contacto": "+57 312 2639098"
     },
     {
-        "id": 44,
-        "nombres": "Depimiel",
-        "imagenn": "./Depimiel/4.png",
-        "precioo":590,
-        "tipoo": "cera",
-        "canti": 0
+        "id": 4,
+        "nombre": "Depimiel",
+        "precio":590,
+        "tipo": "Cera Depilatoria en Caja Vegetal",
+        "cantidad": 100,
+        "contacto": "+ 1 (813) 510 -7811"
     },
     {
-        "id": 55,
-        "nombres": "Depimiel",
-        "imagenn": "./Depimiel/5.png",
-        "precioo":380,
-        "tipoo": "cera",
-        "canti": 0
+        "id": 5,
+        "nombre": "Depimiel",
+        "precio":380,
+        "tipo": "Repuesto Cera Depilatoria Natural",
+        "cantidad": 100,
+        "contacto": "+ 54 9 11 22 00 22"
     },
     {
-        "id": 66,
-        "nombres": "Depimiel",
-        "imagenn": "./Depimiel/6.png",
-        "precioo":590,
-        "tipoo": "cera",
-        "canti": 0
+        "id": 6,
+        "nombre": "Depimiel",
+        "precio":590,
+        "tipo": "Cera Depilatoria en Caja Natural",
+        "cantidad": 100,
+        "contacto": "+ 54 9 11 22 00 22"
     },
     {
-        "id": 77,
-        "nombres": "Depimania",
-        "imagenn": "./Depimiel/7.png",
-        "precioo":650,
-        "tipoo": "cera",
-        "canti": 0
+        "id": 7,
+        "nombre": "Depimania",
+        "precio":650,
+        "tipo": "Cera Depilatoria en Lata Natural",
+        "cantidad": 100,
+        "contacto": "+ 54 9 11 22 00 22"
     },
     {
-        "id": 88,
-        "nombres": "Depimania",
-        "imagenn": "./Depimiel/8.png",
-        "precioo":490,
-        "tipoo": "cera",
-        "canti": 0
+        "id": 8,
+        "nombre": "Depimania",
+        "precio":490,
+        "tipo": "Repuesto Cera Depilatoria en Pote Natural",
+        "cantidad": 100,
+        "contacto": "+ 54 9 11 22 00 22"
     },
     {
-        "id": 99,
-        "nombres": "Depimania",
-        "imagenn": "./Depimiel/9.png",
-        "precioo":650,
-        "tipoo": "cera",
-        "canti": 0
+        "id": 9,
+        "nombre": "Depimania",
+        "precio":650,
+        "tipo": "Cera Depilatoria en Lata Vegetal",
+        "cantidad": 100,
+        "contacto": "+ 54 9 11 22 00 22"
     },
     {
-        "id": 100,
-        "nombres": "Depimania",
-        "imagenn": "./Depimiel/10.png",
-        "precioo":490,
-        "tipoo": "cera",
-        "canti": 0
+        "id": 10,
+        "nombre": "Depimania",
+        "precio":450,
+        "tipo": "Cera Depilatoria en Pote Vegetal",
+        "cantidad": 100,
+        "contacto": "+ 54 9 11 22 00 22"
     }
 ]

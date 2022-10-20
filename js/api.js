@@ -1,20 +1,26 @@
-const url = 'https://api.covidtracking.com/v1/us/20200501.json'
+let url = './productos.json'
 
 fetch(url)
 .then(response => response.json())
-.then(data => {
-    let element = document.getElementById('elem')
-    element.innerHTML = `
-    Datos Covid-19 Estados Unidos
-    <p>Fecha: ${data.dateChecked}</p>
-    <p>Muertes: ${data.death}</p>
-    <p>Hospitalizados: ${data.hospitalized}</p>
-    <p>Casos Negativos: ${data.negative}</p>
-    <p>Falsos Positivos: ${data.pending}</p>
-    <p>Casos Positivos: ${data.positive}</p>
-    <p>Estados: ${data.states}</p>
-    <p>Total Resultado Test Covid 19: ${data.totalTestResults}</p>  
-    `
-    console.log(data)
-})
+.then( data => mostrarData(data) )
 .catch(err => console.log(err))
+  
+    console.log(data)
+
+const mostrarData = (data) => {
+    console.log(data)
+    let body = ""
+    for (let i = 0; i < data.length; i++) {      
+       body+=`
+       <tr>
+       <td>${data[i].id}</td>
+       <td>${data[i].nombre}</td>
+       <td>${data[i].precio}</td>
+       <td>${data[i].tipo}</td>
+       <td>${data[i].cantidad}</td>
+       <td>${data[i].contacto}</td>
+       </tr>
+       `
+    }
+    document.getElementById('data').innerHTML = body
+}

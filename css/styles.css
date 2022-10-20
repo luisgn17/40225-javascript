@@ -5,7 +5,8 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-}
+        
+      }
 img {
     width: 100%;
     margin-bottom: 10px;
@@ -149,4 +150,8 @@ p {
 }
 .boton-eliminar:focus {
     outline: none;
+}
+table thead {
+    background:#302b63;
+    color:white;
 }
